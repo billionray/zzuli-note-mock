@@ -1,2 +1,2 @@
-# zzuli-note-simulation
-note for absence
+# zzuli-note-mock
+mock note for absence
