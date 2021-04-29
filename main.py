@@ -33,14 +33,13 @@ def run1st(import_img1,college,grade,major,class_t,name,number,sex,nation,applyd
     draw.text((267, 1536),  end, font = font, fill = (60, 60, 60))
     draw.text((267, 1644),  days, font = font, fill = (60, 60, 60))
     import_img = np.array(img_pil)
-    try:
-        cv2.imshow("export",import_img)
+    cv2.imshow("export",import_img)
     cv2.waitKey()
     cv2.imwrite("export_pic/export1.jpg",import_img)
     print("success1")
 def run2nd(import_img2,college,grade,major,class_t,name,number,sex,nation,applydate,phone,type,behalf,begin,end,days,year,mouth,day,hour,minute,parents_know,parents_name,parents_phone,where,why,counselor,counselor_name):
     #fontpath=ImageFont.load("STHeiti-Medium.ttf")
-    passtime=year+"年"+mouth+"月"+day+"日"+"\n\n\n"+"9"+"时"+"53"+"分"
+    passtime=year+"年"+mouth+"月"+day+"日"+"\t"+"9"+"时"+"53"+"分"
     font = ImageFont.truetype("fonts/STHeiti-Medium.ttf", 29)
     #fontpath = "font/simsun.ttc"
     #font = ImageFont.truetype(fontpath, 32)
@@ -75,8 +74,7 @@ def run2nd(import_img2,college,grade,major,class_t,name,number,sex,nation,applyd
     draw.text((267, 1446),  counselor_name, font = font, fill = (135, 154, 127))
     draw.text((267, 1498),  passtime, font = font, fill = (60, 60, 60))
     import_img = np.array(img_pil)
-    try:
-        cv2.imshow("export",import_img)
+    cv2.imshow("export",import_img)
     cv2.waitKey()
     cv2.imwrite("export_pic/export2.jpg",import_img)
     print("success2")

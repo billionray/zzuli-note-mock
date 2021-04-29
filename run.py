@@ -3,6 +3,8 @@ from main import run1st,run2nd
 import cv2
 import time
 import datetime as dt
+
+
 datetime = time.strftime("%Y-%m-%d", time.localtime())
 year=time.strftime("%Y", time.localtime())
 mouth=time.strftime("%m", time.localtime())
@@ -11,13 +13,15 @@ day=time.strftime("%d", time.localtime())
 #minute=time.strftime("%min", time.localtime())
 #print(hour)
 #print(minute)
-year=str(float(year)-2000)
+year=str(int(year)-2000)
 mouth=str(int(str(mouth)))
 day=str(int(str(day)))
 #hour=int(str(hour))
 #minute=int(str(minute))
-hour=0
-minute=0
+hour=0#暂时无用，不要更改
+minute=0#暂时无用，不要更改
+
+
 college=""
 grade=""
 major=""
