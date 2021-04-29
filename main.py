@@ -39,7 +39,7 @@ def run1st(import_img1,college,grade,major,class_t,name,number,sex,nation,applyd
     print("success1")
 def run2nd(import_img2,college,grade,major,class_t,name,number,sex,nation,applydate,phone,type,behalf,begin,end,days,year,mouth,day,hour,minute,parents_know,parents_name,parents_phone,where,why,counselor,counselor_name):
     #fontpath=ImageFont.load("STHeiti-Medium.ttf")
-    passtime=year+"年"+mouth+"月"+day+"日"+"\t"+"9"+"时"+"53"+"分"
+    passtime=year+"年"+mouth+"月"+day+"日"+"\t"+"14"+"时"+"51"+"分"
     font = ImageFont.truetype("fonts/STHeiti-Medium.ttf", 29)
     #fontpath = "font/simsun.ttc"
     #font = ImageFont.truetype(fontpath, 32)
